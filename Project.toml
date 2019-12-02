@@ -1,0 +1,11 @@
+name = "PROJ_jll"
+uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
+version = "6.2.1+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+SQLite_jll = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
+
+[compat]
+julia = "1.0"

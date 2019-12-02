@@ -1,0 +1,113 @@
+[[PROJ]]
+arch = "x86_64"
+git-tree-sha1 = "82969ba1aac8d15180fb63a95f52329c1c77f4db"
+libc = "musl"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "6f56c5c2479e633961c4180280f2797377e26f4e3b7c87c67421fd7ce0181f65"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-linux-musl.tar.gz"
+[[PROJ]]
+arch = "i686"
+git-tree-sha1 = "1e920ff075b73783bf435b27381bbf4c3e92f668"
+os = "windows"
+
+    [[PROJ.download]]
+    sha256 = "f840ef2fcb6bdaf7d32d9f216573410abec36f0939425ac41070a23a2dc1d0c3"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-w64-mingw32.tar.gz"
+[[PROJ]]
+arch = "x86_64"
+git-tree-sha1 = "63eb949ae2b107bf258e2a838dbcb05c8daa24b1"
+libc = "glibc"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "0a3cde9c14008ee2c1a50fc4c216fd882da1ba1ecbc3826a3a75afae8618f0eb"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-linux-gnu.tar.gz"
+[[PROJ]]
+arch = "aarch64"
+git-tree-sha1 = "ced03cb43f50c3fddddb18ee67565c85b5383d21"
+libc = "glibc"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "2d70f1feee634a55a61a3a23377bd239b446607d93f263481a6ba6f4e4d70797"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.aarch64-linux-gnu.tar.gz"
+[[PROJ]]
+arch = "x86_64"
+git-tree-sha1 = "7eeec1c09dfb7f934eabe620ec6488b4084d8b5e"
+os = "freebsd"
+
+    [[PROJ.download]]
+    sha256 = "8211f12c27819f9ecdbaa42c3ee49b321792b27692d671869228ca502525f79b"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-unknown-freebsd11.1.tar.gz"
+[[PROJ]]
+arch = "armv7l"
+git-tree-sha1 = "d22641d5bb8b2ee6828adcd50cbbed5906ba5ffb"
+libc = "musl"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "828aa74077ff2b64fb67ecced37cb2cca4cb735de2931f917eec3663bae5b70e"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.arm-linux-musleabihf.tar.gz"
+[[PROJ]]
+arch = "powerpc64le"
+git-tree-sha1 = "ee62cc6d5c85b7ffd0e5f595e47951d27336d71a"
+libc = "glibc"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "0c11987cf501c95011eac221f02c863c6e6559e051cbca06f5b6054d9dcb59de"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.powerpc64le-linux-gnu.tar.gz"
+[[PROJ]]
+arch = "x86_64"
+git-tree-sha1 = "6748468c24f2ff7f894c80732699860be9304ca1"
+os = "windows"
+
+    [[PROJ.download]]
+    sha256 = "2acdc59c089201816dcd70d7895dff0840d89de4c55c016e1442652756a5383b"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-w64-mingw32.tar.gz"
+[[PROJ]]
+arch = "aarch64"
+git-tree-sha1 = "5e91b1e4d611ee982bdf36294a744eef67d14371"
+libc = "musl"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "8312c3341ec3fc70a6b27fd8ba90fc2785bffc9013e120fc92ba46a54e27afd5"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.aarch64-linux-musl.tar.gz"
+[[PROJ]]
+arch = "i686"
+git-tree-sha1 = "74dbe3391f258e4d80ae4c6d7dd3d51e9e3a853c"
+libc = "glibc"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "91d2d702dae26432dca726121451ec65138a44aa2deed9b5028b4bb3b3f0fd57"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-linux-gnu.tar.gz"
+[[PROJ]]
+arch = "x86_64"
+git-tree-sha1 = "17c0c1777a891fa2641ec8ea8e2130518a783f05"
+os = "macos"
+
+    [[PROJ.download]]
+    sha256 = "95994a01661864c688cc5f629d9398552127dd95cd724430a989da7f7075fbf6"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.x86_64-apple-darwin14.tar.gz"
+[[PROJ]]
+arch = "armv7l"
+git-tree-sha1 = "5dd8954613cac801d7715601b7056dd66960b8dc"
+libc = "glibc"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "e9586b87de6ec93f8584ef8e6e39935ccbb073216420249032371eabd8ded481"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.arm-linux-gnueabihf.tar.gz"
+[[PROJ]]
+arch = "i686"
+git-tree-sha1 = "0eb39c00f72396cb5bfaac73d5fcdfb9db33f075"
+libc = "musl"
+os = "linux"
+
+    [[PROJ.download]]
+    sha256 = "8822972379f0cdb29921bc81a80d75e5f0d2e6a231e15e5e5352f043b9761789"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.2.1+0/PROJ.v6.2.1.i686-linux-musl.tar.gz"
