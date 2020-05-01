@@ -1,252 +1,252 @@
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2d52606910c57097080bb3a44f1dd83879680dbe"
+git-tree-sha1 = "9ccef46c4a5a535a54cb12fe1bc1bcec4bd39744"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "375d20b3e660a4efd3dcd0f4993ae507bbdc2e4352b99b5b5b8ec18144697959"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "3e0afdb4f1e1a259693dc446881c67374bf9365cdfe438ff25bf12e243db1478"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.aarch64-linux-musl-cxx03.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "825cc35dd98814addbfcf017d0afa908bb59f6c6"
+git-tree-sha1 = "3bdf0e9f0c6fe0c14c07ba1e08b89047fb5b76b6"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "4f8fb2b39ca31819c569b2f8ea0de13e1a5fe8450a64f424b1e6bf14a9be3d82"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "f08f50ddbf2f32852bb32a4760ecfd41ca523d3fc72d3398779c10c31323ed9e"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.aarch64-linux-musl-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "92b40deb4a0f2684c51ec53c7383ce562be18ab9"
+git-tree-sha1 = "b8e4be623313c03310323227e4fe1e39c222696b"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "55c097a9e1904f857f73c80f6fccbef6c30d84af0f3ad2cf9ca1e429ae44a366"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "9f379d334f93ca30a1501c2f701d6f1d5a4edc781471e0a681702f5f3b3f17d1"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4743cdd89e8f7be84c0012fb1f5b139d5075cf9e"
+git-tree-sha1 = "8ff6feb9234a4584dbdb04c7df64425d67e7a3d9"
 os = "windows"
 
     [[PROJ.download]]
-    sha256 = "507a8634e918f8eda506d59e66dd3885037b6f8d276e0ff3474e79bee40847a3"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "02b8310e2acbc832385a7d82da95dfdffe4a89ca4ca48bf937d3c7110a356aef"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-w64-mingw32-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a0d19929ba2c7431e43c6f959ce7e43a64513caf"
+git-tree-sha1 = "8869048eb57e0c950b098c63582f9da822e1af12"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "8f4cb2c2e685a3bdd477a61285524230a7e3e324bd802af14754312e601947a9"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "7913cf244753671f82c1547280b62800d3ab4b8ed018cf6090d27306e8c83b2b"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-linux-musl-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b994a64d8cd9be054fcdda15eb187e7415598f02"
+git-tree-sha1 = "228ed2c29734bb68888b5e4f0b4eeabc2ae0e5da"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "5f8d391ea7508cec078ad8f2b70a3641b79a2e58cb5f33c40abf7b14b6381dd3"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "8e4c5021af1213a55f25c9917e31ef9c9495a4a9e031ac0aa6045e56bf9734af"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-linux-musl-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "19dbc37a7535791322fff94f3a818d331e65d835"
+git-tree-sha1 = "f85b44c4c37ca7deb95e090aca816a98c86f65f0"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "c1b258e9c69c1dbe171af6449e144c7d17e35edd08cd1a1c90ca907fce2e10fb"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "376752948326533091f13b439ccf684edfbd57ad5c07d1229ed816f5e1141bc7"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a14e319ee4385fa3c8f1bb10f8981eecc9625dd9"
+git-tree-sha1 = "72ee309def7fe1a38ba19b90ffeb47bb8d32b880"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "e8108feb96f3ca646b641806e2124f03e271bad9f2c941e5a5131eebd507fc87"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "d824747cfb1079b90f9473e2a37dc1125dac4cb8f68a9b25a067d4ad71c7e2e7"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b7f214caa56783c0ae97f8be718dec611de180c1"
+git-tree-sha1 = "4d5cfc45abeeb82a46f4382df6ec24d9d5c8841b"
 os = "macos"
 
     [[PROJ.download]]
-    sha256 = "fd688f73311db6ca45c7d9f55eedf2351c72b188b64df9ee2e5c2e93ad8c0105"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "65a0cc996d149076964abfb7f69072aef959463bf54b49f454934c065673c5a3"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-apple-darwin14-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "950b640e4da28134053122588e9513ddc92f9d3f"
+git-tree-sha1 = "975e72b783f7d92d68921531901e9e4bed57034b"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "0e06198378e2466beda1b4749ddc6123a4a11a0c00fcdaa487e7c4957778f3fb"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "9086f7bbed4553902f40a6e1777ac7b6a4f6bfc6c9d39cd17486308f59acf56e"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "da2e08b1f41eda474a08697d9c1addca7d7f6976"
+git-tree-sha1 = "315f7c93d9100756d93cc8a93fb8415fdd39a377"
 os = "windows"
 
     [[PROJ.download]]
-    sha256 = "d4145a0b9a579acf869f17126f5c4fb330f19734556a90d9b289a1af410fc538"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "0e319adede4dc43b10cc128cdf26932be67b2d86b5f48c7845528c1cbec7b434"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-w64-mingw32-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0896d7ece43eb82db63576fd6588d143c00e586e"
+git-tree-sha1 = "4ebc1f36eb673ea4e26039941640229558a113bb"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "59783dc386310769b89949848a898564c1c181bc7018f6f50565fab02f90dcd1"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "54195b85badf5aa75a19f9fec612affdc2333b53cb0ba1329f831d0d4ea8b00b"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8f123db32d1c10a3a6f0f306ff1816aeae48a791"
+git-tree-sha1 = "4cfe1015d1c40549953318d4cd84072b2064403b"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "503e47623a1d0000bf62f2a15ab9101f448666a5769d77fc7e833930e6ef0b0b"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "7c6d74976dac71653d0ac45cd209400b0c7abb4911e25b90eae2c2954def04c6"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7e10c8933fc0e25e0a6981e20f6e17c0ca9efbac"
+git-tree-sha1 = "97a11009119298b0223193bfc22a1b710b02041e"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "5e584fd3c2e5a551809dd8c8284a3c049a5c2c68c67f348cfdd5ff0e501b6a93"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "6dc093fc0edfd3613ee319eed1f467c47d94fa18fe45796735f0d5161ef45b90"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f7db758d542c0bfd478a61c4ebed4b1ea08cf1c4"
+git-tree-sha1 = "1e984c8cf059ffed50a63f4b2f92dd7121a3b41c"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "2d15aa9d7c3b57751074aaaab9c509e50f0ac3a0abc6f647b9cc7a91447a2682"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "8ec9dd811af748660001abe16ff1168df950e3769413a38746ece330e592630c"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-linux-musl-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f78293c8c0918a5e7ccffa526b7fe9c38bb0d3af"
+git-tree-sha1 = "b457851f9a5ec14fd78f6834a9cfafe70a3acbe9"
 os = "macos"
 
     [[PROJ.download]]
-    sha256 = "fdc76c27add27a121b74ea96e2b07661700a9c23273a23a2050d2333bfc6a51a"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "163d4fde19ab7e541af8fbd39f5483cfa546f4b8b759bd87df8b539080877b33"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-apple-darwin14-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8f054a9235a00746ec24da013e53e6ae9fd13295"
+git-tree-sha1 = "addd4a68bd58ca3cfd555399de2d4060768c22f4"
 os = "freebsd"
 
     [[PROJ.download]]
-    sha256 = "9761ff9465de324517739a4455f4d8e9d2feaf3b8687fa148383f3bbbdf2499c"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
+    sha256 = "5b2de8da9e25da70ed771c6faafb9af081a0125e2d44c8852c2eb223034f880c"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
 [[PROJ]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c4a092ec79875924e374c418ed70d7a4f8869588"
+git-tree-sha1 = "e5b1e8008900c4a829cb64281e8b1b2a7fd2b841"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "c2a699709e714198cc1f86f8ac419b0ca191488b693bea6385b34f37752ed059"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "59d205435a6c43ef3143c1ff037574f0f7560d8b2375e49817bd535f23e3b83e"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4c984b554243f5e7ee497620661d34eb05d9c54e"
+git-tree-sha1 = "87172f7c924cab3e617229f58341b2c15ffeec75"
 os = "windows"
 
     [[PROJ.download]]
-    sha256 = "97a8110401e52f646951b49ae892b17ec74508cb3f5b24059a5ae652a2a91588"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "fb30c988ad74fe7d26a0af4cbb1f6717a66da76e34ace629b8a917337d6b879e"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-w64-mingw32-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2b66d0a44f4ef227df009304b3197c1b24b771b1"
+git-tree-sha1 = "81b54905aa81c4d1da04fd800bfc9fc14c01c663"
 os = "windows"
 
     [[PROJ.download]]
-    sha256 = "2ce73e1fd600c8692c5ad2944013c394432f2fa5acf76c69b94de99021b75725"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "144a302f83c6d4640296a594935f017355b32740d07d71aa4b0d709c933139f7"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-w64-mingw32-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "97447952c80648127a82d2743bf0a8a1fad7097a"
+git-tree-sha1 = "5a5358371f059fd742f28792c13bd787c969f566"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "a3c5a8ea37851a47a737945686c76aa98dc44157adebb8eb0c29b7e3592b6a93"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "6a7d77521ea6f01009fe3df3170559842fbb6c8e50aefcc25ffb93d4132e3e33"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3711a2d181af5ad23d135e18556f3d1b7a404f84"
+git-tree-sha1 = "33bb0e63db863aaf8d168e39843c17c715f33079"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "16baefaa0ba443986b9bbc94c2e1cf2bdc09a18d36ccf9369553d4495b40e388"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "f6ed61d82b891c9fae6bffb0a6574e2d81436a54f19385f796f60fcd2294627b"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5cf600e1eeeda69a2c9de3a1b26a825952410d80"
+git-tree-sha1 = "e41ddd284c5e16ea71e49cca7dca387a711cf61b"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "6a3f05988d583397f05fa960a78d98cbc2d2cefe6544ab99a4b96b1dc3f372b1"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "e42441937d42f5dcad826dc53834a5be0dc8c779d5f80e03c4f12ba9a80d5911"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.aarch64-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "522eb74e246e71c2d6092f9cef4fc47187a8b485"
+git-tree-sha1 = "db60ad7295dc075ef048466d80d7d2cc23265887"
 libc = "glibc"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "d922bcd6bd963e24ea56a532a6e2e841ab04de0c6c7bf7cad233ee912e94c413"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "2193f566aaf131cb2637265a7b86c5cbae4e0141f95a1fcf1d67c74d34c09415"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2af2d31c560935d865843a1d51cd4f19d3a96299"
+git-tree-sha1 = "78dfa7bc0be6bfbd02504a27929c0a4fdcf7e75b"
 os = "freebsd"
 
     [[PROJ.download]]
-    sha256 = "31b990d67e7aaf83fdf9c919316e46a33b030a5cec44f1739b12192c010422d7"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
+    sha256 = "056ace55ce6f3e00423bafd55be98eb3fff7177599bc06217c9d960508c1122c"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "7fffcc0ab9085f40bb5f7318c8e06fb40c949ce5"
+git-tree-sha1 = "ec4aec66f898705c387c17c813166ea08ef3c4eb"
 libc = "musl"
 os = "linux"
 
     [[PROJ.download]]
-    sha256 = "c4fe3182be7e4c4b090d1950a4293a340fdd2a89bdab8f206967c22c8dfd7771"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v6.3.2+1/PROJ.v6.3.2.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "b482053b6d5ba05278a9c756b988c74c73543fd835dd616bfbc9a3d016e90082"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v7.0.1+0/PROJ.v7.0.1.i686-linux-musl-cxx03.tar.gz"
