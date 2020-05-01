@@ -1,6 +1,6 @@
 name = "PROJ_jll"
 uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
-version = "6.3.0+0"
+version = "6.3.2+0"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
