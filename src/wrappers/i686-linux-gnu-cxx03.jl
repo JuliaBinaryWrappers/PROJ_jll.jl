@@ -3,11 +3,11 @@ export cct, ch, cs2cs, geod, gie, gl27, itrf2000, itrf2008, itrf2014, libproj, n
 
 using SQLite_jll
 using Libtiff_jll
+using Zlib_jll
 using LibCURL_jll
 using LibSSH2_jll
 using MbedTLS_jll
 using nghttp2_jll
-using Zlib_jll
 JLLWrappers.@generate_wrapper_header("PROJ")
 JLLWrappers.@declare_executable_product(cct)
 JLLWrappers.@declare_file_product(ch)
@@ -30,7 +30,7 @@ JLLWrappers.@declare_executable_product(projinfo)
 JLLWrappers.@declare_executable_product(projsync)
 JLLWrappers.@declare_file_product(world)
 function __init__()
-    JLLWrappers.@generate_init_header(SQLite_jll, Libtiff_jll, LibCURL_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll, Zlib_jll)
+    JLLWrappers.@generate_init_header(SQLite_jll, Libtiff_jll, Zlib_jll, LibCURL_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll)
     JLLWrappers.@init_executable_product(
         cct,
         "bin/cct",
