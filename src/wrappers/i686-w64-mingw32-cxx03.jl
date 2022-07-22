@@ -11,10 +11,10 @@ JLLWrappers.@declare_executable_product(geod)
 JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(gl27)
 JLLWrappers.@declare_file_product(itrf2000)
-JLLWrappers.@declare_file_product(itrf2008)
 JLLWrappers.@declare_file_product(itrf2014)
 JLLWrappers.@declare_library_product(libproj, "libproj_9_0.dll")
 JLLWrappers.@declare_executable_product(cct)
+JLLWrappers.@declare_file_product(itrf2008)
 JLLWrappers.@declare_file_product(nad27)
 JLLWrappers.@declare_file_product(nad83)
 JLLWrappers.@declare_file_product(nad_lst)
@@ -58,11 +58,6 @@ function __init__()
     )
 
     JLLWrappers.@init_file_product(
-        itrf2008,
-        "share\\proj\\ITRF2008",
-    )
-
-    JLLWrappers.@init_file_product(
         itrf2014,
         "share\\proj\\ITRF2014",
     )
@@ -76,6 +71,11 @@ function __init__()
     JLLWrappers.@init_executable_product(
         cct,
         "bin\\cct.exe",
+    )
+
+    JLLWrappers.@init_file_product(
+        itrf2008,
+        "share\\proj\\ITRF2008",
     )
 
     JLLWrappers.@init_file_product(
