@@ -1,10 +1,9 @@
 name = "PROJ_jll"
 uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
-version = "900.100.0+0"
+version = "900.200.100+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 LibCURL_jll = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
 Libtiff_jll = "89763e89-9b03-5906-acba-b20f662cd828"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -14,4 +13,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
-LibCURL_jll = "7.73"
+LibCURL_jll = "7.73,8"
+Libtiff_jll = "4.5.1"
