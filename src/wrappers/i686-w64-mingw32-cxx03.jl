@@ -5,15 +5,15 @@ using SQLite_jll
 using Libtiff_jll
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("PROJ")
-JLLWrappers.@declare_executable_product(cct)
 JLLWrappers.@declare_file_product(ch)
-JLLWrappers.@declare_executable_product(cs2cs)
-JLLWrappers.@declare_executable_product(geod)
+JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(gl27)
 JLLWrappers.@declare_file_product(itrf2000)
-JLLWrappers.@declare_library_product(libproj, "libproj_9_4.dll")
-JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(itrf2008)
+JLLWrappers.@declare_library_product(libproj, "libproj_9.dll")
+JLLWrappers.@declare_executable_product(cct)
+JLLWrappers.@declare_executable_product(cs2cs)
+JLLWrappers.@declare_executable_product(geod)
 JLLWrappers.@declare_file_product(itrf2014)
 JLLWrappers.@declare_file_product(nad27)
 JLLWrappers.@declare_file_product(nad83)
@@ -27,24 +27,14 @@ JLLWrappers.@declare_executable_product(projsync)
 JLLWrappers.@declare_file_product(world)
 function __init__()
     JLLWrappers.@generate_init_header(SQLite_jll, Libtiff_jll, LibCURL_jll)
-    JLLWrappers.@init_executable_product(
-        cct,
-        "bin\\cct.exe",
-    )
-
     JLLWrappers.@init_file_product(
         ch,
         "share\\proj\\CH",
     )
 
     JLLWrappers.@init_executable_product(
-        cs2cs,
-        "bin\\cs2cs.exe",
-    )
-
-    JLLWrappers.@init_executable_product(
-        geod,
-        "bin\\geod.exe",
+        gie,
+        "bin\\gie.exe",
     )
 
     JLLWrappers.@init_file_product(
@@ -57,20 +47,30 @@ function __init__()
         "share\\proj\\ITRF2000",
     )
 
+    JLLWrappers.@init_file_product(
+        itrf2008,
+        "share\\proj\\ITRF2008",
+    )
+
     JLLWrappers.@init_library_product(
         libproj,
-        "bin\\libproj_9_4.dll",
+        "bin\\libproj_9.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
-        gie,
-        "bin\\gie.exe",
+        cct,
+        "bin\\cct.exe",
     )
 
-    JLLWrappers.@init_file_product(
-        itrf2008,
-        "share\\proj\\ITRF2008",
+    JLLWrappers.@init_executable_product(
+        cs2cs,
+        "bin\\cs2cs.exe",
+    )
+
+    JLLWrappers.@init_executable_product(
+        geod,
+        "bin\\geod.exe",
     )
 
     JLLWrappers.@init_file_product(

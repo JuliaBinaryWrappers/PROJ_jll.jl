@@ -1,6 +1,6 @@
 name = "PROJ_jll"
 uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
-version = "901.400.0+0"
+version = "902.500.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -14,6 +14,6 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 JLLWrappers = "1.2.0"
 julia = "1.6"
 LibCURL_jll = "7.73,8"
-Libdl = "1"
+Libdl = "< 0.0.1, 1"
 Libtiff_jll = "4.5.1"
-Artifacts = "1"
+Artifacts = "< 0.0.1, 1"
