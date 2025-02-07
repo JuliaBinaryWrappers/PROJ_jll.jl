@@ -5,14 +5,14 @@ using SQLite_jll
 using Libtiff_jll
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("PROJ")
-JLLWrappers.@declare_file_product(ch)
-JLLWrappers.@declare_library_product(libproj, "@rpath/libproj.25.dylib")
 JLLWrappers.@declare_executable_product(cct)
+JLLWrappers.@declare_file_product(ch)
 JLLWrappers.@declare_executable_product(cs2cs)
 JLLWrappers.@declare_executable_product(geod)
-JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(gl27)
 JLLWrappers.@declare_file_product(itrf2000)
+JLLWrappers.@declare_library_product(libproj, "@rpath/libproj.25.dylib")
+JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(itrf2008)
 JLLWrappers.@declare_file_product(itrf2014)
 JLLWrappers.@declare_file_product(nad27)
@@ -27,20 +27,14 @@ JLLWrappers.@declare_executable_product(projsync)
 JLLWrappers.@declare_file_product(world)
 function __init__()
     JLLWrappers.@generate_init_header(SQLite_jll, Libtiff_jll, LibCURL_jll)
-    JLLWrappers.@init_file_product(
-        ch,
-        "share/proj/CH",
-    )
-
-    JLLWrappers.@init_library_product(
-        libproj,
-        "lib/libproj.25.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
     JLLWrappers.@init_executable_product(
         cct,
         "bin/cct",
+    )
+
+    JLLWrappers.@init_file_product(
+        ch,
+        "share/proj/CH",
     )
 
     JLLWrappers.@init_executable_product(
@@ -53,11 +47,6 @@ function __init__()
         "bin/geod",
     )
 
-    JLLWrappers.@init_executable_product(
-        gie,
-        "bin/gie",
-    )
-
     JLLWrappers.@init_file_product(
         gl27,
         "share/proj/GL27",
@@ -66,6 +55,17 @@ function __init__()
     JLLWrappers.@init_file_product(
         itrf2000,
         "share/proj/ITRF2000",
+    )
+
+    JLLWrappers.@init_library_product(
+        libproj,
+        "lib/libproj.25.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        gie,
+        "bin/gie",
     )
 
     JLLWrappers.@init_file_product(

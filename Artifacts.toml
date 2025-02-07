@@ -5,7 +5,7 @@ os = "macos"
 
     [[PROJ.download]]
     sha256 = "0cf48efd42f75ce38f64e0c582582a64b7c03d86a3875984b7a3a5ee540132d1"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.aarch64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-apple-darwin.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
@@ -15,7 +15,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "5b72bd143f8114a146e2393324da6255a4650ee198d098b514f93defb8e14f1e"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.aarch64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -25,7 +25,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "1b8463941b26b34bc867933695bbb0a0fec11f217d9b00c8251573c8d8099237"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.aarch64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
@@ -35,7 +35,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "747857bc7123fecbee1e74f662d402ceca63394a7b4cd46c97b435575d967520"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.aarch64-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-linux-musl-cxx03.tar.gz"
 [[PROJ]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -45,7 +45,15 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "70b18d887a2d0343c720d19c88b6115d95110a6ebe61552151bb9bcb544909e8"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.aarch64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-linux-musl-cxx11.tar.gz"
+[[PROJ]]
+arch = "aarch64"
+git-tree-sha1 = "9e4e7de3a2625b11c3407af9a7d07f1d710f3d3d"
+os = "freebsd"
+
+    [[PROJ.download]]
+    sha256 = "9694fb5bfc2756a9b71fdb76318aef77a71c8668b06410c9f6321013f8300290"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.aarch64-unknown-freebsd.tar.gz"
 [[PROJ]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -56,7 +64,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "e31743cf63d17b330b2cf7dc52300fb8a91332877ad4ab9d71ca00b7c891e693"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -67,7 +75,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "f659d8287f68396866e75890bd2c74445f12657a5a75e0f3f965ea7b94b7c203"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -78,7 +86,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "36d0054555ad09598e010efe7cf760e070f0ae8b9a65739fcfe3bb0b5b635b58"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv6l-linux-musleabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv6l-linux-musleabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -89,7 +97,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "0859ef366baafae8856688581b3ed1373e0fa5b005083cdb81a0b763e6273c8f"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv6l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -100,7 +108,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "76217f676585cd26aeeea877045bf66765d4acf4c9301561cc3ea0aee308a64f"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -111,7 +119,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "327ccfcbcadbd6de2c773e9a39904dcf5331f8abadd0fbec099055bd9893344a"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -122,7 +130,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "cc3edf3dca1f2122c87285bc52bfcca4f3d82907f9dfae0f755f854263d6c99b"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv7l-linux-musleabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[PROJ]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -133,7 +141,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "e8d90d799d81ed007f9cc043c07987e0d30a65683991f2700ae262417065e4bd"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.armv7l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
@@ -143,7 +151,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "146a97168c44ec85d24772a7d75511cbcd8ad0e126db264397bc43b596903169"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -153,7 +161,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "12c1c75e108a77f14f82ecea4dfef766173ff73e2129c8ae952b45008c41946c"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
@@ -163,7 +171,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "3f89a4c7371abd571aeabe6227ce70902f261d96f7c19cfc698eaf639f21d867"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-linux-musl-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -173,7 +181,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "b88f1ec28db2bf8c290068743a471675a263d8f22788adfd8c742073897a4a2b"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-linux-musl-cxx11.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx03"
@@ -182,7 +190,7 @@ os = "windows"
 
     [[PROJ.download]]
     sha256 = "196457b272a198ef6dd337ea0850e4aa62d753d7d75a553952cca8fa4b3b383a"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-w64-mingw32-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-w64-mingw32-cxx03.tar.gz"
 [[PROJ]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -191,7 +199,7 @@ os = "windows"
 
     [[PROJ.download]]
     sha256 = "34c8ddaae5d1643dc83f79c2f55bb235b5409fae5f18c20aad6c63337d73cafc"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.i686-w64-mingw32-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.i686-w64-mingw32-cxx11.tar.gz"
 [[PROJ]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
@@ -201,7 +209,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "ec51b63eccafadbb5971241583a72bce42ec20ebd465051afebeee803ef454d7"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.powerpc64le-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
@@ -211,7 +219,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "274b5e303e2c091d2eb7237642aefbde1cde3403aed53fea844af3a1490426e7"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.powerpc64le-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "riscv64"
 cxxstring_abi = "cxx03"
@@ -221,7 +229,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "0ad408035f3631779b3ad20ca54096e8c0005dcb499c4b6fafe2479c05c64a34"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.riscv64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.riscv64-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
@@ -231,7 +239,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "1df12344280075cd50556c27c43fc72dd686ae22aad5f846efe82cd2bf61fd63"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.riscv64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.riscv64-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 git-tree-sha1 = "2b18733cb76c4c27cc995fcff9a149b06f564f06"
@@ -239,7 +247,7 @@ os = "macos"
 
     [[PROJ.download]]
     sha256 = "3cd30cece1b3dc5cdb982ff20d1c3143475c7e7b75d6eee552b72afc07ca31e5"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-apple-darwin.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -249,7 +257,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "788e248a2f64d691f01dac0262f26b1170fcc9fdd0c48b8eff43cc7cf0bad2fc"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-linux-gnu-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -259,7 +267,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "884e8ceddf055e41a61327871ff86ee9f5879995fee51c18e28c1d87c3206467"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-linux-gnu-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -269,7 +277,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "38abe6523b9fab4010c92cdc1f4265d24e6c108001df36ef06869a354cd6ef56"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-linux-musl-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -279,7 +287,7 @@ os = "linux"
 
     [[PROJ.download]]
     sha256 = "5fdd462d251f62cc9ef0b215f4ade8e966b0bb66b2dc90d0d50ad3f0c61c53ee"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-linux-musl-cxx11.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 git-tree-sha1 = "cc56e2abb26d44d1c817eb3298985d5af28f9b09"
@@ -287,7 +295,7 @@ os = "freebsd"
 
     [[PROJ.download]]
     sha256 = "ec5b29ad1aa2d0df8555ca6b5c756992c1c69634c42f65c11ac1d0d288dd51e5"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-unknown-freebsd.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -296,7 +304,7 @@ os = "windows"
 
     [[PROJ.download]]
     sha256 = "44d4c4c580ba3f66055249886fa1a02afcdd262d9fc6278142bc80c7ee765d5f"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-w64-mingw32-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-w64-mingw32-cxx03.tar.gz"
 [[PROJ]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -305,4 +313,4 @@ os = "windows"
 
     [[PROJ.download]]
     sha256 = "400a40af4655a59f59da140bf81a7871ca7550c55c3341ecca2827ac9fa8177a"
-    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+0/PROJ.v902.500.100.x86_64-w64-mingw32-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/PROJ_jll.jl/releases/download/PROJ-v902.500.100+1/PROJ.v902.500.100.x86_64-w64-mingw32-cxx11.tar.gz"
