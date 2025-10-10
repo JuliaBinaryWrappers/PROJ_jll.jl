@@ -6,14 +6,14 @@ using Libtiff_jll
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("PROJ")
 JLLWrappers.@declare_file_product(ch)
+JLLWrappers.@declare_executable_product(cs2cs)
 JLLWrappers.@declare_executable_product(geod)
-JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(itrf2000)
-JLLWrappers.@declare_file_product(itrf2008)
 JLLWrappers.@declare_library_product(libproj, "libproj_9.dll")
 JLLWrappers.@declare_executable_product(cct)
-JLLWrappers.@declare_executable_product(cs2cs)
+JLLWrappers.@declare_executable_product(gie)
 JLLWrappers.@declare_file_product(gl27)
+JLLWrappers.@declare_file_product(itrf2008)
 JLLWrappers.@declare_file_product(itrf2014)
 JLLWrappers.@declare_file_product(nad27)
 JLLWrappers.@declare_file_product(nad83)
@@ -33,23 +33,18 @@ function __init__()
     )
 
     JLLWrappers.@init_executable_product(
-        geod,
-        "bin\\geod.exe",
+        cs2cs,
+        "bin\\cs2cs.exe",
     )
 
     JLLWrappers.@init_executable_product(
-        gie,
-        "bin\\gie.exe",
+        geod,
+        "bin\\geod.exe",
     )
 
     JLLWrappers.@init_file_product(
         itrf2000,
         "share\\proj\\ITRF2000",
-    )
-
-    JLLWrappers.@init_file_product(
-        itrf2008,
-        "share\\proj\\ITRF2008",
     )
 
     JLLWrappers.@init_library_product(
@@ -64,13 +59,18 @@ function __init__()
     )
 
     JLLWrappers.@init_executable_product(
-        cs2cs,
-        "bin\\cs2cs.exe",
+        gie,
+        "bin\\gie.exe",
     )
 
     JLLWrappers.@init_file_product(
         gl27,
         "share\\proj\\GL27",
+    )
+
+    JLLWrappers.@init_file_product(
+        itrf2008,
+        "share\\proj\\ITRF2008",
     )
 
     JLLWrappers.@init_file_product(
