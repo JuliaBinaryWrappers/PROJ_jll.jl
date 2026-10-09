@@ -1,6 +1,6 @@
 name = "PROJ_jll"
 uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
-version = "902.800.100+0"
+version = "902.900.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -15,6 +15,6 @@ JLLWrappers = "1.7.0"
 julia = "1.6"
 LibCURL_jll = "7.73,8"
 Libdl = "< 0.0.1, 1"
-Libtiff_jll = "4.7.1"
+Libtiff_jll = "4.7.3"
 SQLite_jll = "3.48.0"
 Artifacts = "< 0.0.1, 1"
